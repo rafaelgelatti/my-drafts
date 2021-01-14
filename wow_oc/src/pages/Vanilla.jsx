@@ -11,7 +11,7 @@ class Vanilla extends React.Component {
     }
   }
 
-  toggleContent(target) {
+  toggleCollapse(target) {
     target.classList.toggle("active");
     const content = target.nextElementSibling;
     if (content.style.display === "block") {
@@ -26,6 +26,12 @@ class Vanilla extends React.Component {
     }
   }
 
+  toggleContent(id) {
+    const { showContent } = this.state;
+    this.setState({ instance: id });
+    this.setState({ showContent: !showContent });
+  }
+
   render() {
     const { showContent } = this.state;
     return (
@@ -38,7 +44,7 @@ class Vanilla extends React.Component {
             <button
               className='collapsible'
               type='button'
-              onClick={ ({ target }) => this.toggleContent(target) }
+              onClick={ ({ target }) => this.toggleCollapse(target) }
             >
               Dungeons
             </button>
@@ -62,7 +68,7 @@ class Vanilla extends React.Component {
               <li>Uldaman</li>
               <button
                 id='vd18'
-                onClick={ ({ target }) => this.setState({ instance: target.id, showContent: true }) }
+                onClick={ ({ target }) => this.toggleContent(target.id) }
               >
                 Wailing Caverns
               </button>
@@ -71,7 +77,7 @@ class Vanilla extends React.Component {
             <button
               className='collapsible'
               type='button'
-              onClick={ ({ target }) => this.toggleContent(target) }
+              onClick={ ({ target }) => this.toggleCollapse(target) }
             >
               Raids
             </button>
