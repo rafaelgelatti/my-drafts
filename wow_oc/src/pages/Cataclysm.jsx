@@ -1,7 +1,7 @@
 const Cataclysm = () => {
   return (
     <div>
-      <h2>Cataclysm Dungeons</h2>
+      <h2>Cataclysm</h2>
       <h3>Dungeons</h3>
       <ul>
         <li>Blackrock Caverns</li>

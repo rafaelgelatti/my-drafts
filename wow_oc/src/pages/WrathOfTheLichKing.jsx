@@ -1,7 +1,7 @@
 const WrathOfTheLichKing = () => {
   return (
     <div>
-      <h2>Wrath of the Lich King Dungeons</h2>
+      <h2>Wrath of the Lich King</h2>
       <h3>Dungeons</h3>
       <ul>
         <li>Ahn'kahet: The Old Kingdom</li>

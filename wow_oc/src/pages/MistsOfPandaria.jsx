@@ -1,7 +1,7 @@
 const MistsOfPandaria = () => {
   return (
     <div>
-      <h2>Mists of Pandaria Dungeons</h2>
+      <h2>Mists of Pandaria</h2>
       <h3>Dungeons</h3>
       <ul>
         <li>Gate of the Setting Sun</li>

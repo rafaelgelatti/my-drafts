@@ -9,7 +9,6 @@ import WarlordsOfDraenor from './pages/WarlordsOfDraenor';
 import Legion from './pages/Legion';
 import BattleForAzeroth from './pages/BattleForAzeroth';
 import Shadowlands from './pages/Shadowlands';
-import './App.css';
 
 function App() {
   return (

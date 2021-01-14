@@ -1,7 +1,7 @@
 const WarlordsOfDraenor = () => {
   return (
     <div>
-      <h2>Warlords of Draenor Dungeons</h2>
+      <h2>Warlords of Draenor</h2>
       <h3>Dungeons</h3>
       <ul>
         <li>Auchidon</li>

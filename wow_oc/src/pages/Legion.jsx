@@ -1,7 +1,7 @@
 const Legion = () => {
   return (
     <div>
-      <h2>Legion Dungeons</h2>
+      <h2>Legion</h2>
       <h3>Dungeons</h3>
       <ul>
         <li>Black Rook Hold</li>

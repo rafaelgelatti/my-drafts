@@ -1,7 +1,7 @@
 const Shadowlands = () => {
   return (
     <div>
-      <h2>Shadowlands Dungeons</h2>
+      <h2>Shadowlands</h2>
       <h3>Dungeons</h3>
       <ul>
         <li>De Other Side</li>

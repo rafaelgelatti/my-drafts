@@ -1,7 +1,7 @@
 const BurningCrusade = () => {
   return (
     <div>
-      <h2>Burning Crusade Dungeons</h2>
+      <h2>Burning Crusade</h2>
       <h2>Dungeons</h2>
       <ul>
         <li>Auchenai Crypts</li>

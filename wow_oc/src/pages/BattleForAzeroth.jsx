@@ -1,7 +1,7 @@
 const BattleForAzeroth = () => {
   return (
     <div>
-      <h2>Battle for Azeroth Dungeons</h2>
+      <h2>Battle for Azeroth</h2>
       <h3>Dungeons</h3>
       <ul>
         <li>Atal'Dazar</li>
