@@ -7,6 +7,8 @@ import Cataclysm from './pages/Cataclysm';
 import MistsOfPandaria from './pages/MistsOfPandaria';
 import WarlordsOfDraenor from './pages/WarlordsOfDraenor';
 import Legion from './pages/Legion';
+import BattleForAzeroth from './pages/BattleForAzeroth';
+import Shadowlands from './pages/Shadowlands';
 import './App.css';
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <Route path='/mists_of_pandaria' component={ MistsOfPandaria } />
       <Route path='/warlords_of_draenor' component={ WarlordsOfDraenor } />
       <Route path='/legion' component={ Legion } />
+      <Route path='/battle_for_azeroth' component={ BattleForAzeroth } />
+      <Route path='/shadowlands' component={ Shadowlands } />
       <Route exact path='/' component={ Welcome } />
     </Switch>
   )

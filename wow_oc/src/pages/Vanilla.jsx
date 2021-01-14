@@ -2,26 +2,34 @@ const Vanilla = () => {
   return (
     <div>
       <h2>Vanilla Dungeons</h2>
+      <h3>Dungeons</h3>
       <ul>
-        <li>Ragefire Chasm</li>
-        <li>The Deadmines</li>
-        <li>Shadowfang Keep</li>
-        <li>Wailing Caverns</li>
         <li>Blackfathom Deeps</li>
-        <li>Maraudon</li>
+        <li>Blackrock Depths</li>
+        <li>Blackrock Spire</li>
+        <li>Dire Maul</li>
         <li>Gnomeregan</li>
+        <li>Maraudon</li>
+        <li>Ragefire Chasm</li>
+        <li>Razorfen Downs</li>
         <li>Razorfen Kraul</li>
         <li>Scarlet Monastery</li>
-        <li>The Stockade</li>
         <li>Scholomance</li>
-        <li>Dire Maul</li>
-        <li>Zul'Farrak</li>
-        <li>Uldaman</li>
-        <li>Razorfen Downs</li>
-        <li>Blackfathom Deeps</li>
+        <li>Shadowfang Keep</li>
         <li>Stratholme</li>
-        <li>Blackrock Spire</li>
         <li>Sunken Temple</li>
+        <li>The Deadmines</li>
+        <li>The Stockade</li>
+        <li>Uldaman</li>
+        <li>Wailing Caverns</li>
+        <li>Zul'Farrak</li>
+      </ul>
+      <h3>Raids</h3>
+      <ul>
+        <li>Blackwing Lair</li>
+        <li>Molten Core</li>
+        <li>Ruins of Ahn'Qiraj</li>
+        <li>Temple of Ahn'Qiraj</li>
       </ul>
     </div>
   )

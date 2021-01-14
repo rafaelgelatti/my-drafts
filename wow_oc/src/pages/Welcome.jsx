@@ -17,6 +17,10 @@ const Welcome = () => {
       <Link to='/warlords_of_draenor'>Warlords of Draenor</Link>
       <br />
       <Link to='/legion'>Legion</Link>
+      <br />
+      <Link to='/battle_for_azeroth'>Battle for Azeroth</Link>
+      <br />
+      <Link to='/shadowlands'>Shadowlands</Link>
     </div>
   );
 };
