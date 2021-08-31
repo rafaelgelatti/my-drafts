@@ -1,2 +1,2 @@
 ### my-drafts
-My drafts and free courses
+My drafts and courses
