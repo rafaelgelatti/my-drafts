@@ -1,7 +1,8 @@
-import { useState, useEffect, useCallback } from 'react';
-import { useDebounce } from './useDebounce';
+import { useState, useEffect, useCallback, useDebugValue } from 'react';
+// import { useDebounce } from './useDebounce';
 import { useIsMounted } from './useIsMounted';
 import { useWillUnmount } from './useWillUnmount';
+import { useThrottle  } from './useThrottle';
 
 const initialPerson = {
   id: 4,
@@ -17,6 +18,8 @@ function savePerson(person) {
 export function usePerson() {
   const [person, setPerson] = useState(initialPerson);
   const isMounted = useIsMounted();
+
+  useDebugValue(person, (p) => `${p?.firstname} ${p?.lastname}`);
 
   useEffect(() => {
     const getPerson = () => {
@@ -39,7 +42,8 @@ export function usePerson() {
     savePerson(person);
   }, [person]);
 
-  useDebounce(saveFn, 10000);
+  // useDebounce(saveFn, 10000);
+  useThrottle(saveFn, 3000);
   useWillUnmount(saveFn);
 
   return [person, setPerson];
